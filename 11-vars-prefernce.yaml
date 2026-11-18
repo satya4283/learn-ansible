@@ -1,0 +1,16 @@
+- name: variables prerence
+  hosts: local
+  connection: local
+  vars:
+    course: "Ansible from PLAY"
+  vars_prompt:
+    - name: course
+      prompt: "Please enter your course"
+      private: false
+
+  tasks:
+    - name: print variables
+      vars:
+        course: "ansible from task"
+      debug:
+        msg: "Hi, I am  learning {{ course }}"
