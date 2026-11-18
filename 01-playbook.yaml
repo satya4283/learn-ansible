@@ -1,5 +1,5 @@
 - name: ping demo
-  hosts: localhost # targating local hosts
+  hosts: local # targating local hosts
   connection: local
   tasks:
   - name: ping localhost
