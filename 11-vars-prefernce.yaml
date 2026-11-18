@@ -10,7 +10,7 @@
 
   tasks:
     - name: print variables
-      vars:
-        course: "ansible from task"
+      # vars:
+      #   course: "ansible from task"
       debug:
         msg: "Hi, I am  learning {{ course }}"
