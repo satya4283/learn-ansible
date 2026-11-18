@@ -17,21 +17,24 @@
     IDE: VS code
     CM: ansible
   
-- first_name: "satyanaryana"
-  lastName: tamarana
-  dob: 02-12-1996
-  # - is for list
-  addresses:
-  - type: permanent
-    doorNumber: 3-61,
-    streetName: gongura peta
-    city : tuni
 
-  - type: temporary
-    doorNumber: 3-308,
-    streetName: pudupakkam
-    city : chennai
+
+- first_name: "prasanna"
+  last_name: "bandaru"
+  dob: 15-01-1999
+  addresses:
+  - type: "temporary"
+    doorNumber: 3-61
+    streetName: "velama street"
+    city: "rayavaram"
+
+  - type: "permanent"
+    doorNumber: 3-61
+    streetName: "velama street"
+    city: "rayavaram"
+  
   skills:
-    OS: linux
-    IDE: VS code
-    CM: ansible
+    OS: "linux"
+    IDE: "VS code"
+    CM: "ansible"
+
