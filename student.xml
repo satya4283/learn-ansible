@@ -1,0 +1,17 @@
+<Student>
+    <firstName>satyanarayana</firstName>
+    <lastName>Tamarana</lastName>
+    <dob>02-12-1996</dob>
+    <addresses>
+        <address type='permanent'>
+            <doorNumber>3-61</doorNumber>
+            <streetName>gongura peta</streetName>
+            <city>Tuni</city>
+        </address>
+         <address type='temporary'>
+            <doorNumber>308</doorNumber>
+            <streetName>pudupakkam</streetName>
+            <city>Chennai</city>
+        </address>
+    </addresses>
+</Student>

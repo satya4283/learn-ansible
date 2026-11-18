@@ -1,0 +1,24 @@
+{
+    "firstname":"satyanarayana",
+    "lastname":"tamarana",
+    "dob":"02-12-1996",
+    "addresses":[
+            {
+                "type":"permanent",
+                "doornumber":"3-61",
+                "streetname":"gongora peta",
+                "city":"tuni"
+            },
+            {
+                "type":"temporary",
+                "doornumber":"308",
+                "streetname":"pudupakkam",
+                "city":"chennai"
+            }
+    ],
+    "skills":{
+        "OS":"linux",
+        "CM":"ansible",
+        "IDE":"VSCode"
+    }
+}

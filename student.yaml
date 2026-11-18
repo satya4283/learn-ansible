@@ -1,0 +1,37 @@
+- first_name: "satyanaryana"
+  lastName: tamarana
+  dob: 02-12-1996
+  # - is for list
+  addresses:
+  - type: permanent
+    doorNumber: 3-61,
+    streetName: gongura peta
+    city : tuni
+
+  - type: temporary
+    doorNumber: 3-308,
+    streetName: pudupakkam
+    city : chennai
+  skills:
+    OS: linux
+    IDE: VS code
+    CM: ansible
+  
+- first_name: "satyanaryana"
+  lastName: tamarana
+  dob: 02-12-1996
+  # - is for list
+  addresses:
+  - type: permanent
+    doorNumber: 3-61,
+    streetName: gongura peta
+    city : tuni
+
+  - type: temporary
+    doorNumber: 3-308,
+    streetName: pudupakkam
+    city : chennai
+  skills:
+    OS: linux
+    IDE: VS code
+    CM: ansible
