@@ -1,6 +1,7 @@
 - name: check OS is RedHat or not
   hosts: local
   connection: local
+  become: yes
   tasks:
     - name: Install nginx in RedHat
       dnf:
