@@ -13,7 +13,7 @@
     more_details:
       trainer: siva kumar
       months: 4
-    exact duration_months: 4.5
+    exact_duration_months: 4.5
 
   tasks:
     - name: print details and their types
