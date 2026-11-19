@@ -1,9 +1,9 @@
-- name: check number is even or not 
+- name: check number is even or not
   hosts: local
   connection: local
   # vars:
   #   given_number: 10
-  
+
   vars_prompt:
     name: given_number
     prompt: please enter the number
@@ -13,9 +13,9 @@
     - name: is even
       debug:
         msg: "given number is {{ given_number}} even"
-      when: given_number % 2 == 0
+      when: given_number%2 == 0
 
     - name: is odd
       debug:
         msg: "given number is {{ given_number}} odd"
-      when: given_number % 2 != 0
+      when: given_number%2 != 0
