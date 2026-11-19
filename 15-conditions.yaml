@@ -1,0 +1,13 @@
+- name: check OS is redhat or  not
+  hosts: local
+  connection: local
+  tasks:
+    - name: is redhat
+      debug:
+        msg: "OS is redhat"
+      when: ansible_facts.os_family == RedHat
+
+    - name: is debian
+      debug:
+        msg: "OS is debeain"
+      when: ansible_facts.os_family == debeain
