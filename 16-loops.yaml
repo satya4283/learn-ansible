@@ -2,11 +2,11 @@
   hosts: local
   connection: local
   tasks:
-    name: print names
-    debug:
-      msg: "Hi, {{ item }}"
-    loop:
+    - name: print names
+      debug:
+        msg: "Hi, {{ item }}"
+      loop:
       - satya
       - prasanna
       - praveen
-      - ayyappa
+      - ayyappa 
