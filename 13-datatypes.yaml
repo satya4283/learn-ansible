@@ -1,0 +1,22 @@
+- name: course information
+  hosts: local
+  connection: local
+  vars:
+    course: "AIOPs with Devsecops using AWS" #string
+    duration_in_hours: 10
+    is_live_session: true
+    topics:
+      - linux
+      - shell
+      - ansible
+      - Terraform
+    more_details:
+      trainer: siva kumar
+      months: 4
+    exact duration_months: 4.5
+
+  tasks:
+    - name: print details and their types
+      debug:
+        msg: |
+          name: {{ course }}: {{ course | type_debug }}
