@@ -11,3 +11,12 @@
     - name: print ec2 info 
       debug:
         msg: "{{ ec2_user_output}}"
+    
+    - name: get the file
+      command: ls -la > /tmp/files.txt
+      register: files_output
+
+    - name: print files output
+      debug:
+        msg: "{{ files_output }}"
+      
