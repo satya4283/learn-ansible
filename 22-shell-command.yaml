@@ -1,0 +1,12 @@
+- name: shell vs command modules
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+    - name: test the command module
+      command: /etc/passwd | grep ec2-user
+      register: ec2_user_output
+
+    - name: print ec2 info 
+      debug:
+        msg: "{{ ec2_user_output}}"
